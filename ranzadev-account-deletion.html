@@ -2,84 +2,146 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Account Deletion Request</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Account Deletion – FinFlow</title>
   <style>
     body {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background-color: #f3f4f6;
       margin: 0;
       padding: 0;
-    }
-    .container {
-      max-width: 700px;
-      margin: 40px auto;
-      background: #ffffff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    }
-    h1 {
       color: #111827;
-      font-size: 24px;
-      margin-bottom: 10px;
     }
+
+    .container {
+      max-width: 820px;
+      margin: 48px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 36px 32px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      color: #6b7280;
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: #2563eb;
+    }
+
     p {
-      color: #374151;
-      line-height: 1.6;
+      line-height: 1.7;
       margin-bottom: 14px;
     }
-    .info {
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 18px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight {
       background: #f9fafb;
       border-left: 4px solid #2563eb;
-      padding: 15px;
-      margin: 20px 0;
-      font-size: 14px;
+      padding: 16px;
+      margin: 24px 0;
+      font-size: 0.95rem;
     }
-    .footer {
-      margin-top: 30px;
-      font-size: 13px;
+
+    .email-box {
+      background: #eef2ff;
+      border-radius: 10px;
+      padding: 16px;
+      margin-top: 16px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.85rem;
       color: #6b7280;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      .card {
+        padding: 26px 22px;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Account Deletion Request</h1>
+  <main class="container">
+    <section class="card">
+      <h1>Account Deletion Request</h1>
+      <div class="subtitle">FinFlow Application</div>
 
-    <p>
-      Hello,
-    </p>
+      <p>
+        FinFlow provides users with the ability to permanently delete their account and all associated data. This page explains how you can request full account deletion.
+      </p>
 
-    <p>
-      I am writing to request the permanent deletion of my account and all associated personal data from your system.
-    </p>
+      <h2>What Happens When You Delete Your Account</h2>
+      <p>Once your account deletion request is processed, the following will be permanently removed:</p>
+      <ul>
+        <li>Your FinFlow account and login credentials</li>
+        <li>All financial records, including transactions, budgets, and categories</li>
+        <li>Any synchronized or backed-up data associated with your account</li>
+      </ul>
 
-    <div class="info">
-      <strong>Account Information:</strong><br />
-      Email used for registration: <em>[Your Email Address]</em><br />
-      App Name: <em>[App Name]</em>
-    </div>
+      <h2>How to Request Account Deletion</h2>
+      <p>
+        To request permanent deletion of your FinFlow account, please send an email with the details below:
+      </p>
 
-    <p>
-      Please delete all data related to this account, including any stored data, account information, and backups, in accordance with your Privacy Policy.
-    </p>
+      <div class="highlight">
+        <strong>Email Subject:</strong> Account Deletion Request – FinFlow<br /><br />
+        <strong>Email Content:</strong><br />
+        Please include the email address used to register your FinFlow account and clearly state that you are requesting permanent account deletion.
+      </div>
 
-    <p>
-      If additional verification is required to process this request, please let me know.
-    </p>
+      <div class="email-box">
+        Contact Email: ranzadev95@gmail.com
+      </div>
 
-    <p>
-      Thank you for your assistance.
-    </p>
+      <h2>Important Notes</h2>
+      <ul>
+        <li>Account deletion is permanent and cannot be undone</li>
+        <li>Some minimal technical or legal data may be retained if required by law</li>
+        <li>Deletion requests are processed after identity verification</li>
+      </ul>
 
-    <p>
-      Best regards,<br />
-      <strong>[Your Name]</strong>
-    </p>
+      <h2>Need Help?</h2>
+      <p>
+        If you have questions regarding account deletion or your privacy rights, please contact us using the email address above.
+      </p>
+    </section>
 
-    <div class="footer">
-      This request was sent to: <strong>ranzadev95@gmail.com</strong>
-    </div>
-  </div>
+    <footer>
+      © [Year] FinFlow. All rights reserved.
+    </footer>
+  </main>
 </body>
 </html>
